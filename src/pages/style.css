@@ -1,0 +1,126 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    width: 100%;
+    max-width: 360px; /* Adjust width as needed */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form title styles */
+  .form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Form input styles */
+  .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #4f46e5;
+  }
+  
+  /* Submit button styles */
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #ff4d4f;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  
+  /* Dashboard Style */
+  /* Container styles */
+/* dashboard-styles.css */
+
+/* Container styles */
+.container {
+    width: 100%;
+  }
+  
+  /* Dashboard container styles */
+  .dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #0000000f;
+    gap: 24px;
+    justify-content: space-around;
+    padding: 32px 6px;
+    margin: 24px;
+  }
+  
+  /* Dashboard item styles */
+  .dashboard-item {
+    width:450px; 
+    box-shadow: 0 3px 5px #0000001a;
+    padding: 2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+    background-color: #f3f4f6;
+  }
+  .dashboard-heading{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  /* Dashboard item content styles */
+  .dashboard-item-content {
+    font-size: 1rem;
+  }
+  .new-member {
+    margin-top: 20px; /* Adjust as needed */
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: blue; /* Adjust color as needed */
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
