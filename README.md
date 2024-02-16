@@ -24,24 +24,3 @@ Start the development server:
 Copy code
 npm start
 Open your browser and navigate to http://localhost:3000 to view the application.
-Project Structure
-css
-Copy code
-project-name/
-  ├── src/
-  │   ├── components/
-  │   │   ├── Form/
-  │   │   │   ├── FormInput.tsx
-  │   ├── pages/
-  │   │   ├── SignInPage.tsx
-  │   │   ├── SignUpPage.tsx
-  │   ├── services/
-  │   │   ├── authService.ts
-  │   ├── store/
-  │   │   ├── authSlice.ts
-  │   │   ├── toastSlice.ts
-  │   ├── App.tsx
-  │   ├── index.tsx
-  ├── public/
-  ├── package.json
-  ├── README.md
